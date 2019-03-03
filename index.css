@@ -1,0 +1,16 @@
+
+.title{
+  margin: 10px 20px;
+
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+
+}
+
+.table{
+   border: 4px solid green;
+   margin: 30px 40px;
+}
