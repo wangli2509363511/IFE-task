@@ -1,0 +1,45 @@
+body{
+
+}
+.bg{
+  background: #eee;
+}
+
+.bg .left-part{
+  float: left;
+  padding: 20px;
+  position: absolute;
+  width: 160px;
+  border: 1px solid #555;
+}
+.bg .left-part span{
+  top: 30px;
+  left: 120px;
+  position: absolute;
+  font-size: 16px;
+}
+.bg .middle-part{
+  margin-right: 160px;
+  margin-left: 220px;
+  border: 1px solid #555;
+}
+
+.bg .right-part{
+  border: 1px solid #555;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.bg .right-part ul{
+  list-style: none;
+}
+.bg .right-part ul li{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+img:hover{
+  transition: all 1.0s;
+  transform: rotate3d(20 ,20,20,360deg);
+
+}
